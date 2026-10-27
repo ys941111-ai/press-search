@@ -1,0 +1,18 @@
+body{font-family:system-ui,"Malgun Gothic",sans-serif;margin:0 auto;padding:0 1rem 2rem;max-width:880px;color:#222;background:#fff}
+header{position:sticky;top:0;background:#fff;padding:1rem 0;border-bottom:1px solid #ddd;z-index:1}
+h1{font-size:1.4rem;margin:0 0 .75rem}
+.search{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap}
+input{padding:.5rem;font-size:1rem;flex:1;min-width:200px;border:1px solid #bbb;border-radius:6px}
+#count{color:#555;font-weight:600}
+.filters{display:flex;gap:.4rem;margin-top:.6rem;flex-wrap:wrap}
+.filters button{border:1px solid #06f;background:#fff;color:#06f;border-radius:999px;padding:.25rem .8rem;cursor:pointer;font-size:.9rem}
+.filters button[aria-pressed="true"]{background:#06f;color:#fff}
+.card{border:1px solid #e3e3e3;padding:1rem;margin:.75rem 0;border-radius:8px}
+.meta{display:flex;justify-content:space-between;font-size:.85rem}
+.label{color:#06f;font-weight:600}
+.no{color:#888}
+.title{font-size:1.1rem;font-weight:600;margin:.35rem 0 .5rem}
+.body{color:#444;font-size:.92rem;line-height:1.6}
+.body p{margin:.4rem 0}
+mark{background:#ffe96b;padding:0 1px}
+.empty{color:#888;text-align:center;padding:2rem 0}

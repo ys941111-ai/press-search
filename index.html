@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3부처 보도자료 검색</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>5.25 호우 대응 3부처 보도자료 검색</h1>
+    <div class="search">
+      <input id="q" type="search" placeholder="검색어 (예: 호우, 경찰청, 1,820명)" aria-label="검색어">
+      <span id="count" aria-live="polite"></span>
+    </div>
+    <div id="filters" class="filters" aria-label="부처 필터"></div>
+  </header>
+  <main id="list"></main>
+  <script src="데이터.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
